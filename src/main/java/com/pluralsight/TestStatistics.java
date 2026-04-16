@@ -25,8 +25,11 @@ public class TestStatistics {
         int high = testScores[0];
         int low = testScores[testScores.length - 1];
 
-        System.out.println(high);
-        System.out.println(low);
+        System.out.println("High score is: " + high);
+        System.out.println("Low score is: " + low);
+
+        double median = testScores[testScores.length / 2];
+        System.out.println(median);
 
 
     }
