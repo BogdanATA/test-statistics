@@ -19,12 +19,14 @@ public class TestStatistics {
         System.out.println("The average test score is: " + average);
 
 
-        //high score
+        //high score and low score
         Arrays.sort(testScores);
-        System.out.println(Arrays.toString(testScores));
 
+        int high = testScores[0];
+        int low = testScores[testScores.length - 1];
 
-
+        System.out.println(high);
+        System.out.println(low);
 
 
     }
