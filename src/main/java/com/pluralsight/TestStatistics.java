@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.util.Arrays;
+
 public class TestStatistics {
     public static void main(String[] args) {
 
@@ -15,6 +17,12 @@ public class TestStatistics {
         }
         double average = sum / testScores.length;
         System.out.println("The average test score is: " + average);
+
+
+        //high score
+        Arrays.sort(testScores);
+        System.out.println(Arrays.toString(testScores));
+
 
 
 
